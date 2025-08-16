@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="pt-PT">
       <body className={inter.className}>
         <Navbar />
-        <main className="pt-10">{children}</main>
+        <main className="pt-10 w-[85vw] xl:w-[100vw] mx-auto">{children}</main>
         <Footer />
       </body>
     </html>

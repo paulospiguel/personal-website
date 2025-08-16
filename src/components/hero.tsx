@@ -8,7 +8,7 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative flex flex-col-reverse py-4 md:py-8 lg:py-20 lg:flex-row items-center justify-between"
+      className="relative flex flex-col-reverse py-8 md:py-12 lg:py-20 lg:flex-row items-center justify-between"
     >
       {/* Conteúdo Principal */}
       <div className="flex flex-col items-start justify-center p-2 pb-20 md:p-2 lg:w-1/2">
